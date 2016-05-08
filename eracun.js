@@ -274,8 +274,6 @@ streznik.post('/odjava', function(zahteva, odgovor) {
     odgovor.redirect('/prijava') 
 })
 
-
-
 streznik.listen(process.env.PORT, function() {
   console.log("Strežnik pognan!");
 })
